@@ -1,0 +1,14 @@
+[package]
+name = "string-matching-benchmarks"
+version = "0.1.0"
+authors = ["Joe Neeman <joeneeman@gmail.com>"]
+
+[dependencies.aho-corasick]
+  git = "https://github.com/BurntSushi/aho-corasick.git"
+
+[dependencies.wu-manber]
+  git = "https://github.com/jneem/wu-manber.git"
+
+[dependencies]
+  lazy_static = "0.1.*"
+
